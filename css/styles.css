@@ -1,0 +1,344 @@
+* {
+    /* background-color: #0C090A; */
+    color: #848482;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;  
+}
+
+.body {
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
+.bgimage {
+    background-image: url(../image/law_background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 600px;
+}
+
+.menu1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 15px;
+}
+
+.menu2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+    padding: 5px;
+}
+
+.s1c1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 50px;
+}
+
+.content1 {
+    width: 60%;
+}
+
+.content2 {
+    width: 100%;
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+    padding-bottom: 0;
+}
+
+.fontcolor {
+    color: white;
+    font-weight: bold;
+}
+
+.content3 {
+    height: 150px;
+    background-color: #bcc6cc65;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.section2 {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding: 50px 0px 50px 0px;
+}
+
+.s2images {
+    display: flex;
+    text-align: center;
+}
+
+.image {
+    border-style: dotted;
+    border-color: #157DEC;
+    padding: 3px;
+    margin: 20px;
+    padding-bottom: 0;
+}
+
+.section3 {
+    background-color:#bcc6cc65;
+    margin: auto;
+    text-align: center;
+    padding: 50px 0px 50px 0px;
+}
+
+.section2B {
+    margin-top: 10px;
+    margin-bottom: 80px;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 20px 30px 50px;
+}
+
+.featureicon {
+    display: flex;
+    align-content: space-between;
+}
+
+.featureiconsize {
+    font-size: 50px;
+}
+
+.s3content2 {
+    margin: 0px 50px 0px 50px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    width: 60%;
+}
+
+.image2 {
+    border-style: dotted;
+    border-color: #157DEC;
+    padding: 3px;
+}
+
+.section4 {
+    margin: 50px;
+}
+
+.s4box2 {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+.s4box3 {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0px 30px 0px; 
+}
+
+.s4leftbox {
+    width: 60%;
+}
+
+.s4btmcnt {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+}
+
+.s4icons {
+    position: relative;
+    background: linear-gradient(#A74AC7,#6960EC);
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    text-align: center;
+    border-style: solid; 
+    border-width: 5px;
+    border-color: linear-gradient(#A74AC7,#6960EC);
+    margin-bottom: 10px;
+}
+
+.iconboxs4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section5 {
+    margin-top: 50px;
+    background-image: url(../image/sean.jpg);
+    height: 550px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.s5content1 {
+    padding: 50px;
+}
+
+.video {
+    text-align: center;
+    margin: 0px;
+}
+
+.section6 {
+    background-color: #bcc6cc65;
+    height: 550px;
+    background-size: contain;
+}
+
+.s6images {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    margin-top: 50px;
+}
+
+.imageborder {
+    border-style: dotted;
+    border-color: #157DEC;
+    padding: 6px;
+}
+
+.frame {
+    margin: 10px;
+}
+
+.section7 {
+    background: linear-gradient(90deg,#A74AC7,#6960EC);
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+}
+
+.section8 {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    height: 400px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.section9 {
+    background-color: #bcc6cc65;
+    margin-top: 50px;
+    height: 750px;
+}
+
+.paragraph {
+    width: 75%;
+    margin: auto;
+    text-align: center;
+}
+
+.heading {
+    margin: 10px;
+    padding-top: 50px;
+    text-align: center;
+    color: black;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+    width: 75%;
+    margin: auto;
+}
+
+.topics {
+    color: black;
+}
+
+.buynow {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color:white;
+    padding:25px;
+}
+
+.corporate {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border-style: solid;
+    border-color: white;
+    border-width: 5px;
+    background-image: linear-gradient(90deg,#A74AC7,#6960EC); 
+    padding:25px;
+    color: #E5E4E2;
+}
+
+.premium {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color:white; 
+    padding:25px;
+}
+
+.doller {
+    color: #1974D2;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.dollermid {
+    color: white;
+    font-size: 50px; 
+    font-weight: bolder;
+}
+
+.white {
+    color: #E5E4E2;
+}
+
+.section10 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.s10box1 {
+    display: flex;
+    width: 33.333333%;
+    justify-content: space-around;
+    border-style: solid;
+    border-color: black;
+    background-color:#E5E4E2;
+    margin: 25px;
+    padding: 30px;
+}
+
+.section12 {
+    background-color: #0C090A;
+    height: 200px;
+}
+
+.s12icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
